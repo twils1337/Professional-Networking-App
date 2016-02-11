@@ -1,0 +1,19 @@
+LOG:  database system was shut down at 2015-06-06 11:58:13 PDT
+LOG:  autovacuum launcher started
+LOG:  database system is ready to accept connections
+ERROR:  table "work_expr" does not exist
+STATEMENT:  DROP TABLE WORK_EXPR;
+ERROR:  table "educational_details" does not exist
+STATEMENT:  DROP TABLE EDUCATIONAL_DETAILS;
+ERROR:  table "message" does not exist
+STATEMENT:  DROP TABLE MESSAGE;
+ERROR:  table "connection_usr" does not exist
+STATEMENT:  DROP TABLE CONNECTION_USR;
+ERROR:  table "usr" does not exist
+STATEMENT:  DROP TABLE USR;
+LOG:  checkpoints are occurring too frequently (8 seconds apart)
+HINT:  Consider increasing the configuration parameter "checkpoint_segments".
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
